@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFEBEB;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+nav{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partedalogo{
+    display: flex;
+    align-items: center;
+} 
+.partedalogo img{
+    width: 60px;
+    margin-right: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+a{
+    color: #111;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.partedotexto {
+    width: 50% ;
+    text-align: center;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.partedaimagem{
+    width: 50%;
+
+}
+.partedaimagem img{
+    width: 75%;   
+}
+.botoes{
+    margin: 20px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ed6cad;
+    cursor: pointer;
+}
+.simounao{
+    font-size: 30px;
+}
+
+
+
+    
